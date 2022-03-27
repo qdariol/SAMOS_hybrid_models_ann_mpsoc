@@ -1,0 +1,4 @@
+The 'experiments' folder contains two application projects. Each application project contains several scenarios with different partitionings of ANNs and mappings. To change the current scenario, please modify the main.cpp file at root.
+
+ -  mnist_t1: Fully-connected ANN for MNIST with two hidden layers. The network config is 784-32-16-10.
+ -  mnist_t2: Fully-connected ANN for MNIST with one hidden layer. The network config is 784-10-10.
